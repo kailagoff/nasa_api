@@ -26,8 +26,7 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     RoverFormComponent,
-    PhotosListComponent,
-    UserPhotosListComponent
+    PhotosListComponent
   ],
   imports: [
     BrowserModule,
