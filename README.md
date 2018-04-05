@@ -20,7 +20,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. _`$ git clone` [] _
 
-2. _`$ cd code-fund-me`_
+2. _`$ cd nasa_api`_
 
 3.  _`$ npm install -g angular-cli`_
 
