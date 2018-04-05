@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { RoverFormComponent } from './rover-form/rover-form.component';
+import { PhotosListComponent } from './photos-list/photos-list.component';
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -12,7 +13,6 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { masterFirebaseConfig } from './api-keys';
 
 import { Router, RouterModule } from '@angular/router';
-import { PhotosListComponent } from './photos-list/photos-list.component';
 import { UserPhotosListComponent } from './user-photos-list/user-photos-list.component';
 
 export const firebaseConfig = {
