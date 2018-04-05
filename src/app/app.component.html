@@ -1,9 +1,11 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">Login</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
+  <div class="jumbotron">
+    <h3>Mars Curiosty Rover Photos</h3>
+  </div>
+
+  <nav class="navbar">
+    <ul class="nav">
+      <a class="navbar-brand" routerLink="">Home</a>
+      <a routerLink="user/photos">View Your Saved Photos</a>
       <li *ngIf="isLoggedIn">
         <a>{{userName}}</a>
         <a (click)="logout()">Log out</a>
@@ -12,8 +14,8 @@
         <a (click)="login()">Log in</a>
       </li>
     </ul>
-  </div>
-</nav>
+  </nav>
+
 
 <div class="container">
   <router-outlet></router-outlet>

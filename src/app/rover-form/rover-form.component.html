@@ -1,10 +1,11 @@
-<h1>Curiosity Images</h1>
-<a routerLink="user/photos">View Your Saved Photos</a>
-<form>
+<br>
+<br>
+<form id="form">
   <div class="form-group">
     <label for="camera">Date</label>
     <input type=date #roverDate>
   </div>
+  <br>
   <div class="form-group">
     <label for="camera">Camera</label>
     <select #roverCamera>
@@ -15,9 +16,11 @@
       <option  value="MAHLI">Mars Hand Lens Imager</option>
     </select>
   </div>
-  <button (click)="getRoverImages(roverDate.value, roverCamera.value)">View Images</button>
-  <button (click)="saveRoverImages(roverDate.value, roverCamera.value)">Save All Images</button>
+  <br>
+  <button (click)="getRoverImages(roverDate.value, roverCamera.value)" class="btn btn-dark">View Images</button>
+  <button (click)="saveRoverImages(roverDate.value, roverCamera.value)" class="btn btn-dark">Save All Images</button>
 </form>
+
 <div *ngIf="photos && !noPhotos">
   <app-photos-list [childPhotos]="photos"></app-photos-list>
 </div>

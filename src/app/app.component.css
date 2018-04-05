@@ -1,22 +1,31 @@
-/* .navbar1{
+.navbar{
   display: flex;
   width: 100%;
   border-bottom: 2px black solid;
   font-family: 'Oswald', sans-serif;
   color: goldenrod;
+  background-image: url("https://images.unsplash.com/photo-1520257328559-2062fc7de0b3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8da24a0bdc8b298f76422be1de98e58&auto=format&fit=crop&w=700&q=60");
 }
 
 .jumbotron {
-  background-color: black;
-  color: goldenrod;
-  font-size: 87px;
+  background-image: url("https://images.unsplash.com/photo-1504576613868-82d2b1e5b424?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0439f095d7c3c2fd9bfcff3bbecbd470&auto=format&fit=crop&w=700&q=60");
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  font-size: 40px;
+  text-align: center;
   font-family: 'Oswald', sans-serif;
-  height: 20px;
+  height: 200px;
   letter-spacing: 2px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 30px;
 }
 
 ul {
   font-size: 17px;
+  text-decoration: none;
 }
 
 .well {
@@ -25,10 +34,10 @@ ul {
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 a:hover {
    color: grey;
    text-decoration: none;
-} */
+}
