@@ -4,8 +4,8 @@
 
   <nav class="navbar">
     <ul class="nav">
-      <a class="navbar-brand" routerLink="">Home</a>
-      <a routerLink="user/photos">View Your Saved Photos</a>
+      <a routerLink="" id="home">Home</a> |
+      <a routerLink="user/photos">View Your Saved Photos</a> | 
       <li *ngIf="isLoggedIn">
         <a>{{userName}}</a>
         <a (click)="logout()">Log out</a>

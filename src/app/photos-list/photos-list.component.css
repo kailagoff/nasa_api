@@ -2,9 +2,18 @@ img {
   height: 500px;
   width: 500px;
   padding: 1em;
-  border: 5px solid brown;
+  border: 5px solid black;
 }
 
 .photo {
   object-fit: cover;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+   color: grey;
+   text-decoration: none;
 }
